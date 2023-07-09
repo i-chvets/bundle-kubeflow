@@ -1,6 +1,6 @@
 name: Scan images
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       bundle-file:
         description: Location of bundle file
